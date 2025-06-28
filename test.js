@@ -18,3 +18,22 @@ let user = {
     uip: "0000.000"
 }
 
+//Strings
+const name = "John"
+const repocupon = 50
+
+console.log(name + repocupon + "Value");
+
+console.log(`Hello my name is ${name} and I have ${repocupon} coupons`);
+
+const GameName = new String("Wasi")
+console.log(GameName[0]);
+
+const newstring = GameName.substring(0, 3)
+console.log(newstring);
+
+const anotherstring = GameName.slice(0, 3)
+console.log(anotherstring);
+
+const url = "https://wahidur20%wahidurrahman"
+console.log(url.replace('20%', '-'));
