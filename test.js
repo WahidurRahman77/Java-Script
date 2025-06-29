@@ -37,3 +37,22 @@ console.log(anotherstring);
 
 const url = "https://wahidur20%wahidurrahman"
 console.log(url.replace('20%', '-'));
+
+//Number and Maths in Javascript 
+
+//************** Numbers **************
+const score = 400
+console.log(score);
+
+const balance = new Number(100)
+console.log(balance);
+
+console.log(balance.toString());
+console.log(balance.toFixed(2));
+
+const othernumber = 100.1234567890123
+console.log(othernumber.toPrecision(4));
+
+const hundreds = 1000000
+console.log(hundreds.toLocaleString());
+console.log(hundreds.toLocaleString('en-IN'));
