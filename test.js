@@ -38,6 +38,8 @@ console.log(anotherstring);
 const url = "https://wahidur20%wahidurrahman"
 console.log(url.replace('20%', '-'));
 
+
+
 //Number and Maths in Javascript 
 
 //************** Numbers **************
